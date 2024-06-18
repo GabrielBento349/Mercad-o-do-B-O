@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas bahia online</title>
+    <link rel="stylesheet" href="styles.css">
+    <scripts src="scripts.js" defer></scripts>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CASAS BAHIA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="https://wa.me/555392206927" target="_blank">Contato via WhatsApp</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Produtos da Bahia</h2>
+            <div class="produto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0fye3cUYNGJFJ5HKmBTBFvp1f6KSdQRLMQ&s" alt="Produto 1">
+                <h3>Rede do Bahiano</h3>
+                <p>Rede confortavel boa para dormir resistente.</p><p>R$ 70,00</p>
+                <button class="comprar-btn" onclick= "adicionarAoCarrinho('Rede do Bahiano')">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ghdIi4b-p_zn6E2nj_Rb7B6PaE1JD0SUpg&s" alt="Produto 2">
+                <h3>Cama do Bahiano</h3>
+                <p>Cama em BOAS condições  , resistente e confiavel.</p>
+                <button class="comprar-btn" onclick="adicionarAoCarrinho('Cama do Bahiano')">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="data:image/jpeg;base64,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" alt="Produto 3">
+                <h3>Geladeira</h3>
+                <p>Geladeira nova, com luz e um pequeno perigo de curto-circuito</p>
+                <button class="comprar-btn" onclick="adicionarAoCarrinho('Geladeira')">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Gp3yoNKQAW7Z_HLgfZH9kPsUUaPdwhC-ug&s" alt="Produto 4">
+                <h3>Colchão Confortavel</h3>
+                <p>Colchão macio, novo, de alta qualidade.</p>R$ 125,90</p>
+                <button class="comprar-btn" onclick="adicionarAoCarrinho('produto')">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthOBfTISHfTbrmd4DORPC-LE73WWR520TrQ&s">
+                <h3>Privada</h3>
+                <p>Privada nova, nunca usada Confia</p><p>R$ 129,69</p>
+                <button class="comprar-btn" onclick="adicionarAoCarrinho('produto')">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cadastro">
+        <div class="container">
+            <h2>Cadastro de Usuário</h2>
+            <form action="cadastrar_usuario.php" method="POST">
+                <label for="nome_usuario">Nome:</label>
+                <input type="text" id="nome_usuario" name="nome_usuario" required>
+                <label for="email_usuario">Email:</label>
+                <input type="email" id="email_usuario" name="email_usuario" required>
+                <label for="telefone_usuario">Telefone:</label>
+                <input type="tel" id="telefone_usuario" name="telefone_usuario" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #221457;
+    position: relative; /* Garante que o footer absoluto seja posicionado corretamente */
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos toda a altura da tela */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px;
+}
+
+header {
+    background-color: #641010;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center; /* Centraliza o conteúdo dentro de cada seção */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: #f0efef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(150, 97, 97, 0.1);
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.comprar-btn {
+    background-color: #5e58b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar-btn:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left; /* Ajusta o alinhamento do texto dentro dos inputs */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #c41a1a;
+    color: #cf3232;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #aaaaaa;
+}
+
+footer {
+    background-color: #973e3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0; /* Remove a margem inferior padrão do parágrafo */
+    padding: 10px 0; /* Espaçamento interno para o conteúdo do footer */
+    font-size: 14px; /* Tamanho da fonte para o texto do footer */
+}
